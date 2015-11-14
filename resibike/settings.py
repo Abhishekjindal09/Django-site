@@ -55,6 +55,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'polls',
     'myCalendar',
+    'basicLOL'
 )
 
 MIDDLEWARE_CLASSES = (

@@ -9,4 +9,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^calendar/', include('myCalendar.urls', namespace="myCalendar")),
+    url(r'^basicLOL/', include('basicLOL.urls', namespace="basicLOL")),
 )
