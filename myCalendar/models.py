@@ -26,3 +26,21 @@ class Entry(models.Model):
 
     class Meta:
         verbose_name_plural = "entries"
+        TestMode = True
+def some_function():
+  global TestMode
+  TestMode = False
+some_function()
+print(TestMode) <--Returns False
+var_one = 123
+def func_one(var_one):
+    var_one = 234
+    var_three = 'abc'
+
+var_two = 456
+
+
+def func_two():
+    var_four = 123
+    print(dir())
+func_two()
